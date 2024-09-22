@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(58, 58, 158, 0.8);
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header{
+    margin-bottom: 20px;
+    font-style: inherit;
+}
+.container{
+    text-align: center;
+}
+#survey{
+    color: aliceblue;
+    font-weight: 350px;
+    margin-top: 40px;
+
+}
+#responce{
+    color: aliceblue;
+    line-height: 1.8;
+    font-size: 20px;
+}
+form{
+    background-color: rgba(27, 27, 50, 0.8);
+    margin-left: 290px;
+    margin-right: 290px;
+    border-radius: 15px;
+}
+label{
+    display: flex;
+}
+#name{
+    color: aliceblue;
+    margin-left: 48px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.name{
+    width: 570px;
+   padding: 10px;
+   margin-top: 5px;
+   border-radius: 10px;
+}
+#email{
+    color: aliceblue;
+    margin-left: 48px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-style: normal;
+}
+.email{
+    width: 570px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+#age{
+    color: aliceblue;
+    margin-left: 48px;
+    padding-top: 30px;
+}
+.side{
+    padding-left: 3px;
+    font-weight: lighter;
+}
+.age{
+    width: 570px;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: -105px;
+}
+#under{
+    color: aliceblue;
+    margin-top: 33px;
+    font-size: 20px;
+}
+#select{
+    width: 570px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.bottom{
+    color: aliceblue;
+    margin-top: 33px;
+    font-size: 20px;
+}
+div{
+    margin-top: 33px;
+}
+.id{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 6px;
+}
+.define{
+    margin-left: 40px;
+}
+.may{
+  margin-left: 40px;
+}
+.not{
+ margin-left: 40px;
+}
+.fav{
+    color: aliceblue;
+    margin-top: 33px;
+    font-size: 20px;
+}
+#elect{
+    width: 570px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.next{
+    color: aliceblue;
+    margin-top: 33px;
+    font-size: 20px;
+}
+.any{
+    color: aliceblue;
+    margin-top: 33px;
+    font-size: 20px;
+}
+.comment{
+    width: 570px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+button{
+    width: 570px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    background:lightgreen;
+    cursor: pointer;
+    color: aliceblue;
+    font-weight: 50px;
+}

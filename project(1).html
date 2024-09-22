@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 id="survey">Survey Form</h1>
+            <p id="responce">Thank You for Your Responce</p>
+        </header>
+        <form action="form" class="admission">
+            <label for="" id="name">Name</label>
+            <input type="text" class="name" placeholder="Enter Your Name">
+            <label for="" id="email">Email</label>
+            <input type="text" class="email" placeholder="Enter Your Email">
+            <label for="" id="age">
+                Age
+                <span class="side">(Optional)</span>
+                <input type="number" class="age" placeholder="Age" min="15" max="50">
+            </label>
+            <p id="under">Which option best describes your current role?</p>
+            <select name="" id="select">
+                <option value="">Student</option>
+                <option value="">Full Time Job</option>
+                <option value="">Full Time Learner</option>
+                <option value="">Prefer not to say</option>
+                <option value="">Other</option>
+            </select>
+            <p class="bottom">would you recommend CodeAlpha to a fried</p>
+            <div>
+                <label for="">
+                    <input type="radio" class="define" name="same" value="otp" checked>
+                    <span class="id"> Definitely </span>
+                </label>
+                <label for="">
+                    <input type="radio" class="may" name="same" value="htp" checked>
+                    <span class="id"> May be </span>
+                </label>
+                <label for="">
+                    <input type="radio" class="not" name="same" value="ttp" checked>
+                    <span class="id"> Not Sure</span>
+                </label>
+            </div>
+            <p class="fav">What is your favorite Internship Projects of CodeAlpha</p>
+            <select name="option" id="elect" >
+                <option  value="1st">App Development</option>
+                <option value="2nd">Cyber Security</option>
+                <option value="3rd">Java</option>
+                <option value="4th">Python</option>
+                <option value="5th">Machine Learning</option>
+                <option value="6th">Web Development</option>
+                <option value="7th">Other</option>
+            </select>
+            <p class="next">What would you like to see next Internship Task?</p>
+            <div>
+                <label for="">
+                    <input type="checkbox" class="define">
+                    <span class="id"> Front-End-projects </span>
+                </label>
+                <label for="" class="may">
+                    <input type="checkbox">
+                    <span class="id"> Back-End-Projects </span>
+                </label>
+                <label for="" class="not">
+                    <input type="checkbox">
+                    <span class="id"> Full-Stack-Projects</span>
+                </label>
+                <label for="" class="not">
+                    <input type="checkbox">
+                    <span class="id"> Challenges</span>
+                </label>
+                <label for="" class="not">
+                    <input type="checkbox">
+                    <span class="id"> Programming</span>
+                </label>
+                <label for="" class="not">
+                    <input type="checkbox">
+                    <span class="id"> Other</span>
+                </label>
+            </div>
+            <p class="any">Any comments or suggestions?</p>
+            <input type="text" class="comment" placeholder= "Enter your comment here..."></b>
+           <button> <b>Submit</b></button>
+        </form>
+    </div>
+</body>
+
+</html>
